@@ -170,6 +170,10 @@ vendor.display.svi.config=1
 vendor.display.svi.config_path=/vendor/etc/SVIConfig.xml
 ro.vendor.display.sensortype=2
 
+# Dolby
+persist.vendor.audio_fx.current=dolby
+ro.vendor.dolby.dax.version=DS1_2.2.0.0_r1
+
 # DPM
 persist.vendor.dpm.feature=1
 persist.vendor.dpm.idletimer.mode=default
