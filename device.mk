@@ -131,7 +131,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
-# Device Settings
+# Dex
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
+
+# DeviceSettings
 PRODUCT_PACKAGES += \
     DeviceSettings
 
