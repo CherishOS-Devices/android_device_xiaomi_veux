@@ -1496,10 +1496,11 @@ vendor/firmware/goodix_cfg_group.bin:recovery/root/vendor/firmware/goodix_cfg_gr
 vendor/firmware/goodix_firmware.bin:recovery/root/vendor/firmware/goodix_firmware.bin
 
 # Thermal
-vendor/bin/mi_thermald
+-vendor/bin/mi_thermald
 vendor/lib64/libthermalclient.so
 
 # Thermal config
+vendor/etc/thermal-arvr.conf
 vendor/etc/thermal-camera.conf
 vendor/etc/thermal-class0.conf
 vendor/etc/thermal-engine.conf
