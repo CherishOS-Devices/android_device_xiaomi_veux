@@ -12,5 +12,8 @@ include device/xiaomi/sm6375-common/BoardConfigCommon.mk
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# OTA assert
+TARGET_OTA_ASSERT_DEVICE := peux,veux
+
 # Inherit from the proprietary version
 include vendor/xiaomi/veux/BoardConfigVendor.mk
