@@ -134,13 +134,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Dex
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
 
-# DeviceSettings
-PRODUCT_PACKAGES += \
-    DeviceSettings
-
-# Dex
-PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
-
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
